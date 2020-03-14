@@ -71,7 +71,6 @@ const useStyles = makeStyles(theme => ({
   },
   color:{
     background: 'linear-gradient(45deg, #0A2239 10%, #176087 90%)',
-    //boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
   }
 }));
 
@@ -188,16 +187,6 @@ export default function PrimarySearchAppBar() {
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="secondary">
-                <MailIcon />
-              </Badge>
-            </IconButton>
-            <IconButton aria-label="show 17 new notifications" color="inherit">
-              <Badge badgeContent={17} color="secondary">
-                <NotificationsIcon />
-              </Badge>
-            </IconButton>
             <IconButton
               edge="end"
               aria-label="account of current user"
@@ -224,6 +213,7 @@ export default function PrimarySearchAppBar() {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
+      </Container>
     </div>
   );
 }
