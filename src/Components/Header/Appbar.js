@@ -69,6 +69,10 @@ const useStyles = makeStyles(theme => ({
       display: 'none',
     },
   },
+  color:{
+    background: 'linear-gradient(45deg, #0A2239 10%, #176087 90%)',
+    //boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+  }
 }));
 
 export default function PrimarySearchAppBar() {
@@ -156,7 +160,7 @@ export default function PrimarySearchAppBar() {
   return (
     <div className={classes.grow}>
         <Container>
-      <AppBar position="static">
+      <AppBar position="fixed" className = {classes.color}>
         <Toolbar>
           <IconButton
             edge="start"
