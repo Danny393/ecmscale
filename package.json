@@ -9,8 +9,11 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "classnames": "^2.2.6",
+<<<<<<< HEAD
+=======
     "material-ui": "^0.20.2",
     "prop-types": "^15.7.2",
+>>>>>>> 20077bb702b0f8d5de0831ebb9fdd1c20ae2a462
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
