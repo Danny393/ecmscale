@@ -224,7 +224,6 @@ export default function PrimarySearchAppBar() {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
-      </Container>
     </div>
   );
 }
