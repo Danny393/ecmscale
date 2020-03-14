@@ -3,7 +3,7 @@
  */
 import React from 'react'
 import PrimarySearchAppBar from '../Header/Appbar.js'
-import Parallax from '../Parallax/Parallax.js'
+import Parallax_ from '../Parallax/Parallax_.js'
 import CenteredGrid from '../GridContent/GridContent.js'
 import HeroBanner from '../HeroBanner/HeroBanner.js'
 
@@ -17,7 +17,7 @@ export default class LandingPage extends React.Component {
         return (
             <div>
                 <PrimarySearchAppBar/>
-                <Parallax />
+                <Parallax_ />
                 <HeroBanner />
                 <CenteredGrid />
                 
