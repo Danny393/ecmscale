@@ -26,38 +26,50 @@ export default function CenteredGrid() {
     <Container>
         <Grid container spacing={2}>
             <Grid item xs={6}>
+                <Paper>
                 <GridList cellHeight={460} className={classes.gridList} cols={1}>
                     <img src={imag}  />
                 </GridList>
+                </Paper>
             </Grid>
             <Grid item xs={6}>
+            <Paper>
                 <GridList cellHeight={460} className={classes.gridList} cols={1}>
                     <img src={imag}  />
                 </GridList>
+                </Paper>    
             </Grid>
         </Grid>
     </Container>
     <Container>
         <Grid container spacing={2}>
             <Grid item xs={3}>
+                <Paper>
                 <GridList cellHeight={360} className={classes.gridList} cols={1}>
                 <img src={imag}  />
                 </GridList>
+                </Paper>
             </Grid>
             <Grid item xs={3}>
-            <GridList cellHeight={360} className={classes.gridList} cols={1}>
+                <Paper>
+                <GridList cellHeight={360} className={classes.gridList} cols={1}>
                 <img src={imag}  />
                 </GridList>
+                </Paper>
             </Grid>
             <Grid item xs={3}>
-            <GridList cellHeight={360} className={classes.gridList} cols={1}>
+            <Paper>
+                <GridList cellHeight={360} className={classes.gridList} cols={1}>
                 <img src={imag}  />
                 </GridList>
+                </Paper>
             </Grid>
             <Grid item xs={3}>
-            <GridList cellHeight={360} className={classes.gridList} cols={1}>
+            <Paper>
+                <GridList cellHeight={360} className={classes.gridList} cols={1}>
                 <img src={imag}  />
                 </GridList>
+                </Paper>
             </Grid>
         </Grid>
     </Container>
