@@ -2,7 +2,7 @@
  * Skeleton for init App page
  */
 import React from 'react'
-//Components will go here for public view
+import PrimarySearchAppBar from '../Header/Appbar.js'
 
 
 export default class LandingPage extends React.Component {
@@ -12,7 +12,9 @@ export default class LandingPage extends React.Component {
 
 
         return (
-            <div></div>
+            <div>
+                <PrimarySearchAppBar/>
+            </div>
         )
     }
 
